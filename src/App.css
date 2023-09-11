@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#root {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  padding: 2rem;
+  /* text-align: center; */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.Iconeye {
+  background-image: url(./Image/64.ico);
+  background-repeat: no-repeat;
+  background-position: 360px;
+  background-size: 25px 25px;
+}
+.IconSearch {
+  background-image: url(/src/Image/search.png) ;
+  background-repeat: no-repeat;
+  background-position: 360px;
+  background-size: 25px 25px;
+}
+.IconFilter {
+  background-image: url(./Image/filter.png) ;
+  background-repeat: no-repeat;
+  background-position: 360px;
+  background-size: 25px 25px;
+}
+.grid-item {
+  border: 1px solid #fff;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 150px 150px 150px ;
+  background-color: #2196F3;
+  padding: 10px;
+}
